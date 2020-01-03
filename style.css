@@ -1,5 +1,13 @@
+html {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #33FFE0;
+}
+
 img {
-  height: 150px;
+  max-height: 1000px;
+  max-width: 1000px;
+  float: right;
 }
 
 .description {
@@ -15,11 +23,7 @@ img {
 }
 
 p.time {
-  color: gray;
-}
-
-p.citation {
-  color: SeaGreen
+  font-weight: bold;
 }
 
 h1, h2, p, li {
